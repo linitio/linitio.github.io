@@ -772,7 +772,7 @@ html {
       margin-bottom: 2rem;
   
       li.nav-item {
-        opacity: 0.9;
+        opacity: 1;
         width: 100%;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
@@ -787,6 +787,7 @@ html {
   
           &:hover {
             background-color: var(--sidebar-hover-bg);
+            opacity: 0.8;
           }
   
           i {
@@ -805,7 +806,8 @@ html {
           .nav-link {
             color: var(--sidebar-active-color);
             background-color: var(--sidebar-hover-bg);
-  
+            border: solid var(--avatar-border-color) 1px;
+
             span {
               opacity: 1;
             }

@@ -3,16 +3,16 @@
 - type: github
   icon: "fab fa-github"
 
-- type: instagram
-  icon: "fab fa-instagram"
-  url: 'https://instagram.com'
-
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
-- type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://fr.linkedin.com/company/linit-io'                  # Fill with your Linkedin homepage
+- type: discord
+  icon: "fa-brands fa-discord"
+  url: 'https://linit.link/dscd'
+
+- type: youtube
+  icon: "fa-brands fa-youtube"
+  url: 'https://linit.link/ytb' 
 
 #- type: email
 #  icon: "fas fa-envelope"
