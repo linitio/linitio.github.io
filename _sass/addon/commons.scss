@@ -67,7 +67,7 @@ html {
   }
   
   img {
-    max-width: 100%;
+    
     height: auto;
     transition: all 0.35s ease-in-out;
   
@@ -715,19 +715,15 @@ html {
     }
   
     #avatar {
-      display: block;
+      display: flex;
       width: 7rem;
       height: 7rem;
       overflow: hidden;
-      box-shadow: var(--avatar-border-color) 0 0 0 2px;
       transform: translateZ(0); /* fixed the zoom in Safari */
+      width: 100%;
   
       img {
-        transition: transform 0.5s;
-  
-        &:hover {
-          transform: scale(1.2);
-        }
+        width: 100%;
       }
     }
   
@@ -735,12 +731,13 @@ html {
       @include mt-mb(2.5rem);
       @extend %clickable-transition;
   
-      padding-left: 2.5rem;
-      padding-right: 1.25rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
       width: 100%;
     }
   
     .site-title {
+      display: none;
       font-family: inherit;
       font-weight: 900;
       font-size: 1.75rem;
@@ -758,6 +755,7 @@ html {
     }
   
     .site-subtitle {
+      display: none;
       font-size: 95%;
       color: var(--site-subtitle-color);
       margin-top: 0.25rem;
