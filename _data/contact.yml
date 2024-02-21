@@ -2,9 +2,11 @@
 
 - type: github
   icon: "fab fa-github"
+  url: 'https://linit.link/gh'
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
+  url: 'https://linit.link/x'
 
 - type: discord
   icon: "fa-brands fa-discord"
