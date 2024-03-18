@@ -207,6 +207,8 @@ html {
   
       &:hover {
         transition: all 0.3s ease-in;
+        background-color: #00c1de !important;
+        border-color: #00c1de !important;
       }
     }
   }
@@ -1218,7 +1220,20 @@ html {
       }
     }
   }
+
+
+  .post-meta-item a{
+    color: var(--text-muted-color) !important;
+  }
+
+  .category-item a{
+    color: var(--text-muted-color) !important;
+  }
   
+  .tag-item a {
+    color: var(--text-muted-color) !important;
+  }
+
   /*
     Responsive Design:
   
