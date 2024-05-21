@@ -1234,6 +1234,20 @@ html {
     color: var(--text-muted-color) !important;
   }
 
+  .profile-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile-container p {
+    margin-top: auto;
+  }
+
+  .profile-image img {
+    width: 10em;
+    margin-right: 1em;
+  }
+
   /*
     Responsive Design:
   

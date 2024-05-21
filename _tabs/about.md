@@ -2,24 +2,23 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+title: À propos
 ---
 
-<style>
-.custom-image {
-  width: 300px;
-  height: auto;
-}
-</style>
-
-<img src="/assets/img/about/profil.png" alt="image" class="custom-image">
-
- Bienvenue sur linit.io ! Je suis Kévin, ingénieur IT / Administrateur Système et Réseaux / Architecte Cloud / Formateur indépendant basé en Haute-Savoie près de Genève. Ici, vous retrouverez mes articles et vidéos [Youtube](https://www.youtube.com/channel/UCprX4LgBZkGr6hcyy5NSgoQ "Chaine LinIT") de formation autour du Cloud, mais aussi des projets plus personnels qui me passionnent tels que la domotique, l’open source et l’enseignement.
+<div class="profile-container">
+  <span class="profile-image">
+    <img src="/assets/img/about/profil.png" alt="Photo de profil">
+  </span>
+  <p>
+    Bienvenue sur linit.io ! Je suis Kévin, ingénieur IT / Administrateur Système et Réseaux / Architecte Cloud / Formateur indépendant basé en Haute-Savoie près de Genève. Ici, vous retrouverez mes articles et vidéos <a href="https://www.youtube.com/channel/UCprX4LgBZkGr6hcyy5NSgoQ">Youtube</a> de formation autour du Cloud, mais aussi des projets plus personnels qui me passionnent tels que la domotique, l’open source et l’enseignement.
+  </p>
+</div>
 
 Mes sujets de prédilection actuels sont OpenStack, Docker, la containerisation et l’architecture Cloud de manière générale.
 
 Je maîtrise également d’autres outils tels que Ansible, Ceph, Cloud-Init, Terraform, Prometheus… J’adore découvrir de nouvelles technologies !
 
-Mon parcours : 
+## **Mon parcours :** 
 - Diplôme d’Architecte Technique en Infrastructure Systèmes et Réseaux en 2013
 - Diplôme de Développement Web en 2021
 
